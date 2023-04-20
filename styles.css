@@ -1,23 +1,24 @@
 /*  your css code here. If applicable */
 /*  your css code here. If applicable */
-.head{
-	padding:0.5px;
+body{
+	background:#f8f8f8;
+}
+.empty{
+	background:white;
+}
+img{
+	width:200px;
+	height:300px;
+	padding:2%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+.p{
+	line-height:0;
+}
+.green{
 	text-align:center;
-	background-color: #f8f8f8;
-	
-}
-.book{
-   display:block;
-	 margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-.book-library>button{
-	background-color:#2ecc71;
-	border:none;
+	background:green;
 	color:white;
-	width:1000px;
-}
-.book-library>p{
-	color:#777777;
 }
